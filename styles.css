@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Reset margin dan padding */
+body, h1, nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya umum */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px; /* Ukuran teks "Selamat Datang" tetap besar */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Gaya header */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-image {
+    flex: 1;
+    text-align: center;
+}
+
+.header-image img {
+    max-width: 100px; /* Sesuaikan ukuran gambar dengan kebutuhan Anda */
+    height: auto;
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+}
+
+.header-text {
+    flex: 2;
+    text-align: left;
+}
+
+body {
+    background-image: url("latar\ aja.jpg"); /* Gambar latar belakang normal */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    transition: background-image 0.3s; /* Efek transisi untuk perubahan gambar latar belakang */
+}
+
+body.clicked {
+    background-image: url("latar2.jpg"); /* Gambar latar belakang saat ditekan */
+    padding: 40px;
+}
+
+.spasi-section {
+    margin: 100px; /* Menambahkan margin 20px di semua sisi elemen dalam section */
+}
+.bg-section {
+    font-size:36px;   
+}
